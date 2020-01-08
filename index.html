@@ -1,19 +1,102 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title> Portfolio </title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300&display=swap" rel="stylesheet">
+
     </head>
+
+    <header>
+
+        <nav class="menu">
+        <ul>
+            <li><a href="#presentation">PRÉSENTATION </a></li>
+            <li><a href="#parcours">PARCOURS</a></li>
+            <li><a href="#projets">PROJETS ▼</a>
+                <ul class="submenu">
+                    <li><a href="#projet1"> Projet Bomberman </a></li>
+                    <li><a href="#projet2"> Refonte du portail DUT Informatique </a></li>
+                    <li> <a href="#projet3"> Marathon Web</a> </li>
+                </ul>
+            </li>
+            <li><a href="#footer">CONTACTS</a></li>
+        </ul>
+    </nav>
+
+    </header>
     <body>
-        <header>        </header>
-        <main>
-    
-        </main>
-        <footer>
-    
-        </footer>
+
+        <div class="présentation" id="présentation">
+                <h1> A propos de moi : </h1>
+                    <ul>
+                        J'ai 18 ans, je suis étudiant en deuxième année de DUT informatique.
+                        <br>
+                        À la recherche d'un tage du 6/04 au 10/06.
+                        <br>
+            <img src="img/fond.jpg" class="pp" width="1000">
+            <br>
+        </div>
+            <div class="parcours" id="parcours">
+                <h1> Mon parcours : </h1>
+                    <ul>
+                        <li> 2019 - en cours : Deuxième année de DUT informatique </li>
+                        <li> 2018 - 2019 : Première année de DUT informatique </li>
+                        <li> 2018 : Baccalauréat S, mention bien </li>
+                    </ul>
+                    <br>
+            </div>
+            <div class="compétences" id="compétences">
+                    <h1> Mes compétences : </h1>
+                    <ul>
+                      <li> Java </li>
+                      <li>  PostgreSQL </li>
+                      <li> Python </li>
+                      <li> PHP / Laravel </li>
+                      <li> Anglais </li>
+                    </ul>
+                (images plutôt que du texte)
+                    <br>
+
+        </div>
+            <div class="projets" id="projets">
+            <h1> Mes projets réalisés : </h1>
+                <center>
+                <a href="#projet3"> <img src="img/marathon.png" class="photoMarathon" width="1000"> </a>
+                <br>
+                <a href="#projet1"> <img src="img/bomberman.png" class="photoBomberman" width="1000"> </a>
+                <br>
+                <a href="#projet2"> <img src="img/projets1.png" class="photoProjetS1" width="1000"> </a>
+                <br>
+                    </center>
+        </div>
+                <div class="projet3" id="projet3">
+                    <p> Faut mettre le projet marathon </p>
+        </div>
+            <div class="projet1" id="projet1">
+                <h2> Projet Bomberman : </h2>
+                <img src="img/bomberman.png" class="bomberman" width="700">
+                <br>
+        </div>
+        <div class="projet2" id="projet2">
+                <h2> Refonte du portail national du DUT Informatique : </h2>
+                <img src="img/projets1.png" class="projetS1" width="700">
+                <br>
+        </div>
+            <div class="footer id=footer">
+              <br>
+              <center>
+            Mon mail : <a href="mailto:maxence.boisedu@gmail.com"> maxence.boisedu@gmail.com </a>
+                <br>
+            <a href="https://www.linkedin.com/in/maxence-bois%C3%A9du-b2a541197/" target="_blank"> Linkedin </a>
+                  <br>
+                  <a href="docs/CV_Maxence_Bois%C3%A9du.pdf" class="cvFR" target="_blank"> Mon CV </a> &nbsp <a href="docs/CV_Maxence_Bois%C3%A9du_English.pdf" class="cvEN" target="_blank"> My CV </a>
+            </center>
+            <br>
+          </div>
     </body>
+
 </html>
