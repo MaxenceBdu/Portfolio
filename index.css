@@ -4,7 +4,6 @@ html, body{
     margin: 0;
     padding: 0;
     border: none;
-    color: white;
 }
 
 body{
@@ -130,20 +129,16 @@ nav > ul > li:hover a {
 /* CSS du reste de la page */
 
 .présentation{
-    background-color: #4f000b;
 
 }
 
 .parcours{
-    background-color: #720026;
 }
 
 .compétences{
-    background-color: #bc4242;
 }
 
 .projets{
-    background-color: #ce4848;
 }
 
 .photoMarathon:hover{
@@ -158,11 +153,9 @@ nav > ul > li:hover a {
     box-shadow: 5px 5px silver; 
 }
 .projet1{
-    background-color: #ff7f51;
 }
 
 .projet2{
-    background-color: #ff9b54;
 }
 
 body{
@@ -170,7 +163,6 @@ body{
 }
 
 .footer{
-    background-color: #ffad73;
     margin-bottom: -22px;
 }
 
