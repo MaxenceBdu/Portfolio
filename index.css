@@ -1,173 +1,78 @@
-/* CSS global */
-
 html, body{
     margin: 0;
-    padding: 0;
-    border: none;
+    font-family: 'Roboto';
+    height: 100%;
 }
 
-body{
-    margin-top:-20px;
+#profil{
+    display: flex;
+    height: 60%;
+    padding: 5%;
+    background-color: #212C4F;
+    color: white;
 }
 
-h1{
-    text-decoration: underline;
+#photo {
+    max-height: 100%; 
+    width: auto;
 }
 
-.présentation{
-  margin-top : 100px;
-  margin-bottom: -22px;
+#presentation{
+    height: 100%;
+    font-size: 25px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.photo{
-position : absolute; 
-  margin-left: 400px;
-  margin-bottom: 50px;
+#projets{
+    display: flex;
+    justify-content: center;
+    background-color: #212C4F;
+    border-top: 1px solid rgb(199, 206, 218);
+    border-bottom: 1px solid rgb(199, 206, 218);
 }
 
-.compétences{
-  margin-bottom: -22px;
-}
-.parcours{
-  margin-bottom: -22px;
-}
-
-.projets{
-  margin-bottom: -22px;
+table{
+    width: 80%;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    background-color: rgb(199, 206, 218);
 }
 
-.projet1{
-  margin-bottom: -22px;
+td{
+    padding: 20px;
+    width: 50%;
 }
 
-.projet2{
-  margin-bottom: -22px;
+iframe{
+    width: 80%;
+    min-height: 500px;
 }
 
-.cv{
-    
+#footer{
+    height: 15%;
+    background-color: #212C4F;
+    display: flex;
+    color: white;
+    font-size: 25px;
 }
 
-/* CSS DE LA MENU BAR */
-nav > ul {
-    margin-left: 25%;
+#footer > div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid white;
 }
 
-nav > ul > li {
-    float: left;
-    position: relative;
+#link_mail:visited, #link_mail:link{
+    color: white;
 }
 
-nav li {
-    list-style-type: none;
-}
-
-.submenu {
-    display: none;
-}
-
-nav {
-    width: 100%;
-    height: 100px;
-    background-color: #8f5c63;
-    font-size: 200%;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
-    margin-top: -35px;
-    margin-bottom: -100px;
-    padding-bottom: 0px;
-}
-
-nav > ul::after {
-    content: "";
-    display: block;
-    clear: both;
-}
-
-nav a {
-    display: inline-block;
-    text-decoration: none;
-}
-
-nav > ul > li > a {
-    padding: 20px 25px;
-    color: #FFF;
-}
-
-nav li:hover .submenu {
-    display: inline-block;
-    position: absolute;
-    top: 100%;
-    left: 0px;
-    padding: 0px;
-    z-index: 100000;
-}
-
-.submenu li {
-    border: 1px solid #C0C0C0;
-    background-color: #8f5c63;
-    width : 250%;
-}
-
-.submenu li a {
-    padding: 17px 30px;
-    font-size: 95%;
-    color: #FFF;
-    width: 100%;
-}
-
-nav > ul > li:hover {
-    border-top: 5px solid#BBB;
-    background-color: rgba(220, 220, 220, 0.15);
-}
-
-nav > ul > li:hover a {
-    padding: 16px 25px 20px 25px;
-}
-
-/* CSS du reste de la page */
-
-.présentation{
-
-}
-
-.parcours{
-}
-
-.compétences{
-}
-
-.projets{
-}
-
-.photoMarathon:hover{
-    box-shadow: 5px 5px silver; 
-}
-
-.photoBomberman:hover{
-    box-shadow: 5px 5px silver; 
-}
-
-.photoProjetS1:hover{
-    box-shadow: 5px 5px silver; 
-}
-.projet1{
-}
-
-.projet2{
-}
-
-body{
-    font-family: 'Roboto', sans-serif;;
-}
-
-.footer{
-    margin-bottom: -22px;
-}
-
-@media screen and (min-device-width : 0px) and (max-device-width : 750px) {
-    .menu{
-        display:none;
-    }
+#img_cv{
+    max-height: 100px;
 }
