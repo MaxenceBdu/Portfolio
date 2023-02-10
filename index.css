@@ -5,67 +5,35 @@ html, body{
 }
 
 #profil{
-    display: flex;
-    height: 60%;
-    padding: 5%;
     background-color: #212C4F;
     color: white;
 }
 
 #photo {
-    max-height: 100%; 
-    width: auto;
-}
-
-#presentation{
-    height: 100%;
-    font-size: 25px;
-    margin-left: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    object-fit: contain;
 }
 
 #projets{
-    display: flex;
-    justify-content: center;
     background-color: #212C4F;
-    border-top: 1px solid rgb(199, 206, 218);
-    border-bottom: 1px solid rgb(199, 206, 218);
 }
 
-table{
-    width: 80%;
-    text-align: center;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    font-size: 20px;
+#list{
     background-color: rgb(199, 206, 218);
 }
 
-td{
-    padding: 20px;
-    width: 50%;
-}
-
-iframe{
-    width: 80%;
-    min-height: 300px;
-}
-
 #footer{
-    height: 15%;
     background-color: #212C4F;
-    display: flex;
     color: white;
-    font-size: 25px;
 }
-
+    
 #footer > div {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#footer > div:first-of-type {
     border-right: 1px solid white;
 }
 
@@ -73,6 +41,144 @@ iframe{
     color: white;
 }
 
-#img_cv{
-    max-height: 100px;
+@media screen and (min-width: 300px)  {
+
+    #profil{
+        height: 80%;
+    }
+
+    #photo_div{
+        height: fit-content;
+        padding: 5rem;
+        padding-bottom: 0;
+    }
+
+    #photo {
+        max-width: 100%;
+    }
+
+    #presentation{
+        height: fit-content;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1rem;
+        text-align: center;
+    }
+
+    #projets{
+        display: flex;
+        justify-content: center;
+        border-top: 3px solid rgb(199, 206, 218);
+        border-bottom: 3px solid rgb(199, 206, 218);
+    }
+
+    
+    /*#list{
+        width: 90%;
+
+        To let blue bands on the side
+    }*/
+
+    .cell{
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    iframe{
+        width: 90%;
+        min-height: 25rem;
+    }
+
+    #footer{
+        display: flex;
+    }
+
+    #footer > div{
+        font-size: 30px;
+        text-align: center;
+        padding: 2rem 0; 
+    }
+}
+
+@media screen and (min-width: 1400px)  {
+    
+    #profil{
+        display: flex;
+        height: 60%;
+        padding: 4%;
+    }
+    
+    #photo_div {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    #photo {
+        object-fit: contain;
+        max-width: 70%;
+    }
+    
+    #presentation{
+        height: 100%;
+        font-size: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    #projets{
+        display: flex;
+        justify-content: center;
+        border-top: 1px solid rgb(199, 206, 218);
+        border-bottom: 1px solid rgb(199, 206, 218);
+    }
+    
+    #list{
+        width: 80%;
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        font-size: 20px;
+    }
+    
+    .row{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2%;
+    }
+    
+    .cell{
+        width: 50%;
+        margin-top: 0;
+    }
+
+    #in_progress{
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center;
+    }
+    
+    iframe{
+        width: 80%;
+        min-height: 300px;
+    }
+    
+    #footer{
+        height: 15%;
+        display: flex;
+    }
+
+    #footer > div {
+        font-size: 25px;
+    }
+
+    #img_cv{
+        max-height: 100px;
+    }
 }

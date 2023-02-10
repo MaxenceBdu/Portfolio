@@ -13,7 +13,7 @@
 <body>
 
     <div id="profil">
-        <img id="photo" src="img/photo.JPG" alt="Photo de moi">
+        <div id="photo_div"><img id="photo" src="img/photo.JPG" alt="Photo de moi"></div>
         <div id="presentation">
             <p>Je m'appelle <b>Maxence Boisédu</b>, j'ai 21 ans et je suis étudiant en 2ème année de Master Informatique spécialité Ingénierie Logicielle pour les Jeux.</p>
             <p>Je développe principalement sous <b>Unreal</b> et en <b>C++</b> mais j'ai également travaillé avec <b>Unity</b>.</p>
@@ -23,46 +23,49 @@
     </div>
 
     <div id="projets">
-        <table id="grid">
-            <tr>
-                <td>
+        
+        <div id="list">
+            
+            <div class="row">
+                <div class="cell" id="in_progress">
                     <img src="img/arrows.png" alt="in progress">
                     <p>Jeu d'horreur en Réalité Virtuelle sous Unreal, 2023</p>
-                </td>
-                <td>
+                </div>
+                <div class="cell">
                     <iframe src="https://www.youtube.com/embed/ydFWh1rOqZc" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>X-COM like sous Unreal, 2022-2023 (en cours)</p>
-                </td>
-                
-            </tr>
+                </div>
+            </div>
 
-            <tr>
-                <td>
+            <div class="row">
+                <div class="cell">
                     <iframe src="https://www.youtube.com/embed/F1mgf7aYt3E" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>Projet d'étude des déplacements d'IAs dans les jeux, 2023 &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/MaxenceBdu/demo_ia" target="_blank">Github</a></p>
-                </td>
-                <td>
+                </div>
+                <div class="cell">
                     <iframe src="https://www.youtube.com/embed/etQM11hQ67Y" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>Rasterizer en C++, affichage d'objets 3D et déplacement d'une caméra, 2022 &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/MaxenceBdu/rasterizer" target="_blank">Github</a></p>
-                </td>
-                
-            </tr>
-            <tr style="padding-left: 50%">
-                <td>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="cell">
                     <iframe src="https://www.youtube.com/embed/DP1EM6_ru2s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>Pokémon-like multijoueur en réseau, 2021 &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/MaxenceBdu/poketudiant" target="_blank">Github</a> </p>
-                </td>
-                <td>
+                </div>
+                <div class="cell">
                     <iframe src="https://www.youtube.com/embed/ttMc6CdS0PM" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     <p>RPG 2D sous Unity, 2020 &nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/MaxenceBdu/first-2D-rpg-game" target="_blank">Github</a></p>
-                </td>
-            </tr>
-        </table>
+                </div>
+            </div>
+
+        </div>
+
     </div>
 
     <div id="footer">
         <div id="mail">
-            <p> Pour me contacter : <a href="mailto:maxence.boisedu@gmail.com" id="link_mail">maxence.boisedu@gmail.com</a> | 06.71.54.79.69 </p>
+            <p> <a href="mailto:maxence.boisedu@gmail.com" id="link_mail">maxence.boisedu@gmail.com</a> | 06.71.54.79.69 </p>
         </div>
         <div>
             <p>Pour voir mon CV :</p> &nbsp;&nbsp; <a href="docs/CV_MaxenceBoisedu.pdf" target="_blank"><img src="img/resume.png" alt="cv" id="img_cv"> </a>
