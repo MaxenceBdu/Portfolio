@@ -109,6 +109,10 @@ html, body{
     #pipe{
         display: none;
     }
+
+    #space{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 1400px)  {
@@ -197,5 +201,9 @@ html, body{
 
     #img_cv{
         max-height: 100px;
+    }
+    
+    #space{
+        display: block;
     }
 }
