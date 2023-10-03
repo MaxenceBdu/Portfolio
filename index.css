@@ -175,6 +175,10 @@ html, body{
         flex-direction: column; 
         align-items: center; 
         justify-content: center;
+
+        #in_progress_img{
+            max-width: 70%;
+        }
     }
     
     iframe{
